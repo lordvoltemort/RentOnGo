@@ -21,8 +21,6 @@
 <!--        <a href="Login.html" style="float: right;">Login</a>-->
         </div>
   </div>
-
-	<title>Avablity of Bikes </title>
 </head>
 <body>
 

@@ -1,3 +1,4 @@
+//get date and time
 var x;
 var y;
 function Avablity() {
@@ -13,7 +14,11 @@ function Avablity() {
 			}
 	}
 
-
-function func1(){
-	document.getElementById('temp').innerHTML = "Fun1 is working"
-}
+	function checkRegistration(){
+     	var form_valid = (document.getElementById('date1').value != "");
+     	if(!form_valid){
+ 	        alert('Given data is incorrect');
+ 	        return false;
+ 	    }
+ 	    return true;
+ }
